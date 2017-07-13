@@ -68,7 +68,7 @@ input {
 	display: block;
 	height: 40px;
 	width: 245px;
-    background: black url("{{ site.baseurl }}/images/logo-cloudunit.png") no-repeat;
+    background: black url("../images/logo-cloudunit.png") no-repeat;
 	background-size: 245px 40px;
 }
 
@@ -106,7 +106,7 @@ input {
 }
 
 header {
-	background-image: url("./images/computer-bg.jpg");
+	background-image: url("../images/computer-bg.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin-left: 5px;
@@ -211,7 +211,7 @@ header {
 .complementary {
 	position: relative;
     min-height: 675px;
-    background-image: url("/images/technicians-sm.png");
+    background-image: url("../images/technicians-sm.png");
     background-size: 85%;
     background-position: right bottom;
    	background-repeat: no-repeat;
@@ -232,7 +232,7 @@ header {
 }
 
 .Koncept .box__heading {
-	background: url("/images/dotted_transp_bg.png") repeat;
+	background: url("../images/dotted_transp_bg.png") repeat;
 	padding: 0;
 	text-align: center
 }
@@ -264,7 +264,7 @@ header {
 }
 
 .mainThree .box__heading {
-	background: url("./images/dotted_transp_bg.png");
+	background: url("../images/dotted_transp_bg.png");
 	padding: 0;
 	text-align: center;
 }
@@ -290,7 +290,7 @@ ol > li {
 /***************************  Fourth Section  ****************************/
 
 #Going_further {
-	background-image: url("/images/engineers.png");
+	background-image: url("../images/engineers.png");
     background-size: contain;
     background-position: 25% bottom;
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@ ol > li {
 }
 
 .mainFour .box__heading {
-	background: url("/images/dotted_transp_bg.png");
+	background: url("../images/dotted_transp_bg.png");
 	padding: 0;
 	text-align: center;
 }
