@@ -4,15 +4,15 @@ email: contact@treeptik.fr
 description: > # CloudUnit provides an automated and standardized platform
                   for devs to build and run Java applications and ops to
                   provision and orchestrate environments.
-baseurl: "/cloudunit" # the subpath of your site
-url: "https://treeptik.github.io" # the base hostname & protocol for your site
+baseurl: "/cloudunitMardownJekyll" # the subpath of your site
+url: "https://ismastormz.github.io" # the base hostname & protocol for your site
 twitter_username: Treeptik
 github_username:  Treeptik
 
 # About/contact
 author:
   name:       Charifou Ismaël
-  url:        http://cloudunit.io
+  url:        http://ismastormz.github.io
 
 # Build settings
 markdown: kramdown
