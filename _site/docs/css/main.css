@@ -68,7 +68,7 @@ input {
 	display: block;
 	height: 40px;
 	width: 245px;
-    background: black url("/assets/images/logo-cloudunit.png") no-repeat;
+    background: black url("{{ site.baseurl }}/assets/images/logo-cloudunit.png") no-repeat;
 	background-size: 245px 40px;
 }
 
