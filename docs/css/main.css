@@ -348,10 +348,10 @@ ol > li {
 #mainFooter {
 	margin-left: 350px;
 	margin-right: 350px;
-	position: relative;
+	/*position: relative;
 	height: auto;
 	left: 0;
-	top: 0;
+	top: 0;*/
 }
 
 #mainFooter .box p {
