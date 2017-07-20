@@ -2,14 +2,14 @@
 /***************************** Body *********************************/
 
 body {
-	font-family: 'futura-pt', sans-serif !important;
-	color: black !important;
-	font-size: 1.5rem !important;
+	font-family: 'futura-pt', sans-serif;
+	color: black;
+	font-size: 1.5rem;
 	font-weight: 400;
 	background-color: #33CCFF !important;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 0 !important;
+	margin: 0;
 	padding: 0;
 	height: 100%;
 }
@@ -175,16 +175,16 @@ header {
 	margin-top: 55px;
     color: deeppink;
     border-color: deeppink;
-    border-radius:5px !important;
-    box-shadow: 4px 4px 0 deeppink !important;
+    border-radius:5px;
+    box-shadow: 4px 4px 0 deeppink;
 }
 
 .cta .cta--secondary {
 	margin-top: 25px;
     color: black;
     border-color: black;
-    border-radius:5px !important;;
-    box-shadow: 4px 4px 0 black !important;
+    border-radius:5px;
+    box-shadow: 4px 4px 0 black;
 }
 
 .cta__hint {
