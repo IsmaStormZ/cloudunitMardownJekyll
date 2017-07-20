@@ -283,17 +283,17 @@ ol {
 
 ol > li {
 	list-style: none;
-    list-style-type: none;
-    list-style-image: none;
+	list-style-type: none;
+	list-style-image: none;
 }
 
 /***************************  Fourth Section  ****************************/
 
 #Going_further {
 	background-image: url("../images/engineers.png");
-    background-size: contain;
-    background-position: 25% bottom;
-    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 25% bottom;
+	background-repeat: no-repeat;
 	height: auto;
 	left: 0;
 	top: 0;
@@ -302,11 +302,6 @@ ol > li {
 
 #Going_further a:link {
 	color: deeppink;
-}
-
-.further{
-	/* display: block;
-	text-align: left; */
 }
 
 .formCloudunit {
@@ -348,10 +343,10 @@ ol > li {
 #mainFooter {
 	margin-left: 350px;
 	margin-right: 350px;
-	/*position: relative;
+	position: relative;
 	height: auto;
 	left: 0;
-	top: 0;*/
+	top: 0;
 }
 
 #mainFooter .box p {
