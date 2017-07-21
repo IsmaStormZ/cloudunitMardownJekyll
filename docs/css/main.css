@@ -22,7 +22,7 @@ container {
 	float:left;
 }
 
- h1 {
+h1 {
 	text-align: center;
 	vertical-align: baseline;
 }
@@ -37,7 +37,7 @@ input {
 }
 
 .nav-btn {
-		text-align: center;
+	text-align: center;
 
 }
 
@@ -58,9 +58,9 @@ input {
 /**************************** Nav bar   ******************************/
 
 #left-nav {
-    position: fixed;
-    width: 50px;
-    height: 100%;
+	position: fixed;
+	width: 50px;
+	height: 100%;
 	background: black;
 }
 
@@ -68,25 +68,25 @@ input {
 	display: block;
 	height: 40px;
 	width: 245px;
-    background: black url("../images/logo-cloudunit.png") no-repeat;
+	background: black url("../images/logo-cloudunit.png") no-repeat;
 	background-size: 245px 40px;
 }
 
 #social-links {
-    width: 50px;
-    margin-top: 10px;
+	width: 50px;
+	margin-top: 10px;
 	text-align: center;
 	font-size: 25px;
 }
 
 #social-links ul {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 #social-links ul li{
 	list-style: none;
-    display: block;
+	display: block;
 }
 
 #social-links i {
@@ -94,15 +94,15 @@ input {
 }
 
 #social-links i:hover {
-    color: deeppink;
+	color: deeppink;
 }
 
 /************************ First Section ****************************/
 
 #mainBody {
- 	margin-top: 0;
+	margin-top: 0;
 	margin-bottom: 0;
-    text-align: center;
+	text-align: center;
 }
 
 header {
@@ -147,8 +147,8 @@ header {
 
 #mainOne .box__heading .heading {
 	background-color: black;
-    color: white;
-    display: inline-block;
+	color: white;
+	display: inline-block;
 }
 
 .wpb_wrapper {
@@ -156,40 +156,40 @@ header {
 }
 
 .cta {
-    display: block;
-    border: 1px solid !important;
-    padding: 6px 26px;
-    /* -webkit-transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out; */
-    transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    background-color: transparent;
-    font-weight: 400;
-    font-size: 16px;
-    width: 75%;
-    margin: 10px auto;
+	display: block;
+	border: 1px solid !important;
+	padding: 6px 26px;
+	/* -webkit-transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out; */
+	transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	background-color: transparent;
+	font-weight: 400;
+	font-size: 16px;
+	width: 75%;
+	margin: 10px auto;
 }
 
 .cta .cta--primary {
-	margin-top: 55px;
-    color: deeppink;
-    border-color: deeppink;
-    border-radius:5px;
-    box-shadow: 4px 4px 0 deeppink;
+	/*margin-top: 55px;*/
+	color: deeppink;
+	border-color: deeppink;
+	/*border-radius:5px;*/
+	box-shadow: 5px 5px 5px deeppink;
 }
 
 .cta .cta--secondary {
-	margin-top: 25px;
-    color: black;
-    border-color: black;
-    border-radius:5px;
-    box-shadow: 4px 4px 0 black;
+	/*margin-top: 25px;*/
+	color: black;
+	border-color: black;
+	/*border-radius:5px;*/
+	box-shadow: 4px 4px 4px black;
 }
 
 .cta__hint {
-    display: block;
-    margin-top: -8px;
+	display: block;
+	margin-top: -8px;
 }
 
 
@@ -202,8 +202,8 @@ header {
 }
 
 .help-block {
-	color: grey;
-	width: 100%;
+	/*color: grey;
+	width: 100%;*/
 }
 
 .complementary {
@@ -212,8 +212,8 @@ header {
 	height: 600px;
 
 	background-image: url("../images/technicians-sm.png");
-	background-size: 300px;
-	background-position: bottom;
+	background-size: 250px;
+	background-position: right;
 	background-repeat: no-repeat;
 }
 
@@ -241,7 +241,7 @@ header {
 
 
 .mainFour .text--primary {
-    color: deeppink;
+	color: deeppink;
 }
 
 /*************************** Third Section ****************************/
@@ -312,13 +312,13 @@ ol > li {
 
 .forminput {
 
-  	padding: 1px 26px;
+	padding: 1px 26px;
 }
 
 .formsubmit {
-    background-color: transparent;
-    text-decoration: none;
-    border: none;
+	background-color: transparent;
+	text-decoration: none;
+	border: none;
 }
 
 /***************************** Social Section ********************************/
