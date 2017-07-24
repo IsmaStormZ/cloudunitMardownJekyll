@@ -139,13 +139,13 @@ header {
 	text-align: center;
 }
 
-#mainOne .box__heading {
+#mainOne.box__heading {
 	background: url("../images/dotted_black_bg.png") repeat;
 	padding: 0;
 	text-align: center;
 }
 
-#mainOne .box__heading .heading {
+#mainOne.box__heading .heading {
 	background-color: black;
 	color: white;
 	display: inline-block;
@@ -157,9 +157,9 @@ header {
 
 .cta {
 	display: block;
-	border: 1px solid !important;
+	border: 1px solid;
 	padding: 6px 26px;
-	/* -webkit-transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out; */
+	 /*-webkit-transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out; */
 	transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -171,19 +171,19 @@ header {
 	margin: 10px auto;
 }
 
-.cta .cta--primary {
-	/*margin-top: 55px;*/
+.cta.cta--primary {
+	margin-top: 55px;
 	color: deeppink;
 	border-color: deeppink;
-	/*border-radius:5px;*/
+	border-radius:5px;
 	box-shadow: 5px 5px 5px deeppink;
 }
 
-.cta .cta--secondary {
-	/*margin-top: 25px;*/
+.cta.cta--secondary {
+	margin-top: 25px;
 	color: black;
 	border-color: black;
-	/*border-radius:5px;*/
+	border-radius:5px;
 	box-shadow: 4px 4px 4px black;
 }
 
@@ -237,11 +237,6 @@ header {
 	background: black;
 	color: white;
 	display: inline-block;
-}
-
-
-.mainFour .text--primary {
-	color: deeppink;
 }
 
 /*************************** Third Section ****************************/
@@ -309,6 +304,11 @@ ol > li {
 	color: white;
 	display: inline-block;
 }
+
+.mainFour .text--primary {
+	color: deeppink;
+}
+
 
 .forminput {
 
