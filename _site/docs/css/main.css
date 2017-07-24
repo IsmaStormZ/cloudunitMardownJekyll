@@ -3,15 +3,15 @@
 
 body {
 	font-family: 'futura-pt', sans-serif;
-    color: black;
-   	font-size: 1.5rem;
-    font-weight: 400;
-    background-color: #33CCFF;
+	color: black;
+	font-size: 1.5rem;
+	font-weight: 400;
+	background-color: #33CCFF !important;
 	background-repeat: no-repeat;
 	background-size: cover;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
 /**************************** General *********************************/
@@ -22,7 +22,7 @@ container {
 	float:left;
 }
 
- h1 {
+h1 {
 	text-align: center;
 	vertical-align: baseline;
 }
@@ -37,7 +37,7 @@ input {
 }
 
 .nav-btn {
-		text-align: center;
+	text-align: center;
 
 }
 
@@ -58,9 +58,9 @@ input {
 /**************************** Nav bar   ******************************/
 
 #left-nav {
-    position: fixed;
-    width: 50px;
-    height: 100%;
+	position: fixed;
+	width: 50px;
+	height: 100%;
 	background: black;
 }
 
@@ -68,25 +68,25 @@ input {
 	display: block;
 	height: 40px;
 	width: 245px;
-    background: black url("../images/logo-cloudunit.png") no-repeat;
+	background: black url("../images/logo-cloudunit.png") no-repeat;
 	background-size: 245px 40px;
 }
 
 #social-links {
-    width: 50px;
-    margin-top: 10px;
+	width: 50px;
+	margin-top: 10px;
 	text-align: center;
 	font-size: 25px;
 }
 
 #social-links ul {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 #social-links ul li{
 	list-style: none;
-    display: block;
+	display: block;
 }
 
 #social-links i {
@@ -94,15 +94,15 @@ input {
 }
 
 #social-links i:hover {
-    color: deeppink;
+	color: deeppink;
 }
 
 /************************ First Section ****************************/
 
 #mainBody {
- 	margin-top: 0;
+	margin-top: 0;
 	margin-bottom: 0;
-    text-align: center;
+	text-align: center;
 }
 
 header {
@@ -147,8 +147,8 @@ header {
 
 #mainOne .box__heading .heading {
 	background-color: black;
-    color: white;
-    display: inline-block;
+	color: white;
+	display: inline-block;
 }
 
 .wpb_wrapper {
@@ -156,67 +156,65 @@ header {
 }
 
 .cta {
-    display: block;
-    border: 1px solid !important;
-    padding: 6px 26px;
-    /* -webkit-transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out; */
-    transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    background-color: transparent;
-    font-weight: 400;
-    font-size: 16px;
-    width: 75%;
-    margin: 10px auto;
+	display: block;
+	border: 1px solid !important;
+	padding: 6px 26px;
+	/* -webkit-transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out; */
+	transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	background-color: transparent;
+	font-weight: 400;
+	font-size: 16px;
+	width: 75%;
+	margin: 10px auto;
 }
 
 .cta .cta--primary {
-	margin-top: 55px;
-    color: deeppink;
-    border-color: deeppink;
-    border-radius:5px;
-    box-shadow: 4px 4px 0 deeppink;
+	/*margin-top: 55px;*/
+	color: deeppink;
+	border-color: deeppink;
+	/*border-radius:5px;*/
+	box-shadow: 5px 5px 5px deeppink;
 }
 
 .cta .cta--secondary {
-	margin-top: 25px;
-    color: black;
-    border-color: black;
-    border-radius:5px;
-    box-shadow: 4px 4px 0 black;
+	/*margin-top: 25px;*/
+	color: black;
+	border-color: black;
+	/*border-radius:5px;*/
+	box-shadow: 4px 4px 4px black;
 }
 
 .cta__hint {
-    display: block;
-    margin-top: -8px;
+	display: block;
+	margin-top: -8px;
 }
 
 
 /*************************** Second Section ****************************/
 
 #Key_concept{
-	height: auto;
-	width: 100%;
-	/* position: relative; */
-	left: 0;
-	top: 0;
+	text-align: center;
+	padding-left: 50px;
+	clear: both;
 }
 
 .help-block {
-	color: grey;
-	width: 100%;
+	/*color: grey;
+	width: 100%;*/
 }
 
 .complementary {
-	position: relative;
-    min-height: 675px;
-    background-image: url("../images/technicians-sm.png");
-    background-size: 85%;
-    background-position: right bottom;
-   	background-repeat: no-repeat;
-    max-width: 320px;
-    margin-left: 250px;
+	margin-top: 100px;
+
+	height: 600px;
+
+	background-image: url("../images/technicians-sm.png");
+	background-size: 250px;
+	background-position: right;
+	background-repeat: no-repeat;
 }
 
 .complementaries {
@@ -227,8 +225,6 @@ header {
 	margin-bottom: 50px;
 	margin-top: 100px;
 	display: inline-block;
-    margin-left: 150px;
-
 }
 
 .Koncept .box__heading {
@@ -245,17 +241,14 @@ header {
 
 
 .mainFour .text--primary {
-    color: deeppink;
+	color: deeppink;
 }
 
 /*************************** Third Section ****************************/
 
 #Usage {
-	margin-left: 350px;
-	position: relative;
-	height: auto;
-	left: 0;
-	top: 0;
+	margin-top: 10px;
+	padding-left: 50px;
 }
 
 .usages {
@@ -283,41 +276,26 @@ ol {
 
 ol > li {
 	list-style: none;
-    list-style-type: none;
-    list-style-image: none;
+	list-style-type: none;
+	list-style-image: none;
 }
 
 /***************************  Fourth Section  ****************************/
 
 #Going_further {
 	background-image: url("../images/engineers.png");
-    background-size: contain;
-    background-position: 25% bottom;
-    background-repeat: no-repeat;
-	height: auto;
-	left: 0;
-	top: 0;
-	margin-left: 350px;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
 }
 
 #Going_further a:link {
 	color: deeppink;
 }
 
-.further{
-	/* display: block;
-	text-align: left; */
-}
-
 .formCloudunit {
-	margin-right: 700px;
-	margin-left: 5px;
 	text-align: center;
 	display:  inline-block;
-	width:  55%;
-	min-width: 250px;
-	max-width: 350px;
-
 }
 
 .mainFour .box__heading {
@@ -334,20 +312,18 @@ ol > li {
 
 .forminput {
 
-  	padding: 1px 26px;
+	padding: 1px 26px;
 }
 
 .formsubmit {
-    background-color: transparent;
-    text-decoration: none;
-    border: none;
+	background-color: transparent;
+	text-decoration: none;
+	border: none;
 }
 
 /***************************** Social Section ********************************/
 
 #mainFooter {
-	margin-left: 350px;
-	margin-right: 350px;
 	position: relative;
 	height: auto;
 	left: 0;
@@ -367,7 +343,6 @@ ol > li {
 }
 
 .row img {
-	width: 150px;
 	height: 150px;
 }
 
@@ -397,6 +372,10 @@ ol > li {
 }
 
 .partner {
+	border: 1px solid black;
+}
+
+.docker {
 	list-style-type: none;
 }
 
@@ -404,10 +383,23 @@ ol > li {
 	list-style-type: none;
 }
 
+.no-marges {
+	margin: 0;
+	padding: 0;
+}
+
 
 /****************************** Footer Section ********************************/
 
 
-.col-md-12 {
+.foot_bottom {
 	text-align: center;
+}
+
+.debug {
+	border: 1px solid yellow;
+}
+
+.debug:hover {
+	background: purple;
 }
