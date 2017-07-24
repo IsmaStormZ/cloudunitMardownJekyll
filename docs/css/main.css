@@ -139,13 +139,13 @@ header {
 	text-align: center;
 }
 
-#mainOne.box__heading {
+#mainOne .box__heading {
 	background: url("../images/dotted_black_bg.png") repeat;
 	padding: 0;
 	text-align: center;
 }
 
-#mainOne.box__heading .heading {
+#mainOne .box__heading .heading {
 	background-color: black;
 	color: white;
 	display: inline-block;
@@ -290,7 +290,12 @@ ol > li {
 
 .formCloudunit {
 	text-align: center;
-	display:  inline-block;
+	display: block;
+}
+
+.formCloudunit2 {
+	text-align: center;
+	display: block;
 }
 
 .mainFour .box__heading {
@@ -309,16 +314,20 @@ ol > li {
 	color: deeppink;
 }
 
-
 .forminput {
-
 	padding: 1px 26px;
 }
 
 .formsubmit {
 	background-color: transparent;
-	text-decoration: none;
-	border: none;
+	/*text-decoration: none;
+	border: none;*/
+}
+
+.formsubmit2{
+	background-color: transparent;
+	/*text-decoration: none;
+	border: none;*/
 }
 
 /***************************** Social Section ********************************/

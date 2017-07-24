@@ -1,7 +1,7 @@
 <section id="Key_concept" class="col-md-12">
   <div class="col-md-2"></div>
   <div class="complementary col-md-4">
-      <h2 class="help-block">
+      <h4 class="help-block">
         Let's admit
         <br>
         Managing applications environments is shitty.
@@ -166,12 +166,13 @@
       </ul>
     </div>
     <div class="formCloudunit">
-      <form id="setting-Form" action="http://139.59.147.137:3333/contact" class="cta cta--primary" method="post">
+      <form id="setting-Form" action="http://0.0.0.0:3333/contact" class="cta cta--primary" method="post">
+      <!-- <form id="setting-Form" action="http://139.59.147.137:3333/contact" class="cta cta--primary" method="post"> -->
         <input class="forminput" id="configName" type="text" name="setName" placeholder="Name" required />
-        <br>
+        <br />
         <input class="forminput" id="configEmail" type="email" name="setEmail" placeholder="Email" required />
-        <br>
-        <input class="formsubmit" type="submit" value="Try online demo">
+        <br />
+        <input class="formsubmit" type="submit" value="Try online demo" />
       </form>
       <small class="cta__hint">Log-in with the following credentials:
         <code class="text--primary">johndoe</code> /
@@ -179,6 +180,15 @@
         <br>
         The plateform is reset every night.
       </small>
+    </div>
+    <div class="formCloudunit2">
+      <form action="count" id ="installForm" class="cta cta--secondary" method="post">
+         <input type="text" name="nom" placeholder="Name" required/>
+         <br />
+         <input type="email" name="mail" placeholder="Email" required />
+         <br />
+         <input class="formsubmit2"type="submit" value = "Install cloudunit" />
+       </form>
     </div>
   </div>
 </section>
