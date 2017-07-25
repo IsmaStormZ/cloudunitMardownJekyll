@@ -27,8 +27,13 @@ h1 {
 	vertical-align: baseline;
 }
 
+h3 {
+	font-weight: bold;
+}
+
 h4 {
 	text-align: center;
+	font-weight: 900;
 }
 
 input {
@@ -170,7 +175,6 @@ header {
 	margin-top: 55px;
 	color: deeppink;
 	border-color: deeppink;
-	/*border-radius:5px;*/
 	box-shadow: 4px 4px 4px deeppink;
 }
 
@@ -178,7 +182,6 @@ header {
 	margin-top: 25px;
 	color: black;
 	border-color: black;
-	/*border-radius:5px;*/
 	box-shadow: 4px 4px 4px black;
 }
 
@@ -258,7 +261,7 @@ header {
 	display: inline-block;
 }
 
-ol {
+/*ol {
 	display: block;
 	text-align: left;
 }
@@ -268,6 +271,40 @@ ol > li {
 	list-style: none;
 	list-style-type: none;
 	list-style-image: none;
+}*/
+
+
+ul, ol {
+    padding: 0 0 0 16px;
+    margin: 0;
+}
+
+ul li {
+    list-style: square;
+}
+
+ol {
+    counter-reset: ol;
+}
+
+ol > li {
+    list-style: none;
+    counter-increment: step-counter;
+    position: relative;
+}
+
+ol > li::before {
+    position: absolute;
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 6rem;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-style: italic;
+    left: 0;
+    opacity: 0.3;
 }
 
 /***************************  Fourth Section  ****************************/
