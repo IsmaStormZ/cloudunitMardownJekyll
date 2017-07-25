@@ -16,12 +16,6 @@ body {
 
 /**************************** General *********************************/
 
-container {
-	padding:  0 16px;
-	background: white;
-	float:left;
-}
-
 h1 {
 	text-align: center;
 	vertical-align: baseline;
@@ -34,7 +28,6 @@ h3 {
 h4 {
 	text-align: center;
 	font-size: 2rem;
-
 }
 
 input {
@@ -46,21 +39,7 @@ input {
 	text-align: center;
 }
 
-.separator {
-	background-color: pink;
-	padding: 1px;
-}
-
-.separator2 {
-	background-color: black;
-	padding: 1px;
-}
-
-.mainBody {
-	display: block;
-}
-
-/**************************** Nav bar   ******************************/
+/**************************** Nav bar ********************************/
 
 #left-nav {
 	position: fixed;
@@ -294,7 +273,7 @@ ol > li::before {
     opacity: 0.2;
 }
 
-/***************************  Fourth Section  ****************************/
+/**************************** Fourth Section *****************************/
 
 #Going_further {
 	background-image: url("../images/engineers.png");
@@ -416,7 +395,6 @@ ol > li::before {
 	margin: 0;
 	padding: 0;
 }
-
 
 /****************************** Footer Section ********************************/
 
