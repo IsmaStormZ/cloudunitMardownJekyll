@@ -38,7 +38,6 @@ input {
 
 .nav-btn {
 	text-align: center;
-
 }
 
 .separator {
@@ -117,19 +116,15 @@ header {
 #mainOne {
 	background-color: #FEFE00;
 	border-radius:10px;
-
 	position: absolute;
 	left: 15%;
 	top: 150px;
-
 	height:  400px;
 	width:  35%;
 	min-width: 400px;
 	max-width: 600px;
-
 	padding:  10px;
 	text-align: center;
-
 	border: 1px solid #a6a6a6;
 }
 
@@ -159,7 +154,6 @@ header {
 	display: block;
 	border: 1px solid;
 	padding: 6px 26px;
-	 /*-webkit-transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out; */
 	transition: box-shadow .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -169,21 +163,22 @@ header {
 	font-size: 16px;
 	width: 75%;
 	margin: 10px auto;
+	border-radius:5px;
 }
 
 .cta.cta--primary {
 	margin-top: 55px;
 	color: deeppink;
 	border-color: deeppink;
-	border-radius:5px;
-	box-shadow: 5px 5px 5px deeppink;
+	/*border-radius:5px;*/
+	box-shadow: 4px 4px 4px deeppink;
 }
 
 .cta.cta--secondary {
 	margin-top: 25px;
 	color: black;
 	border-color: black;
-	border-radius:5px;
+	/*border-radius:5px;*/
 	box-shadow: 4px 4px 4px black;
 }
 
