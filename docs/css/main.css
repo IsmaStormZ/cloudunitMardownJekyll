@@ -30,6 +30,9 @@ h4 {
 	font-size: 2rem;
 }
 
+hr {
+	font-weight: bold;
+}
 input {
 	width: 180px;
 	vertical-align: baseline;
@@ -39,11 +42,22 @@ input {
 	text-align: center;
 }
 
+.heading {
+	padding: 1px 5px 1px 5px;
+}
+
 /**************************** Nav bar ********************************/
+
+#fork {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+}
 
 #left-nav {
 	position: fixed;
-	width: 65px;
+	width: 45px;
 	height: 100%;
 	background: black;
 	z-index: 999;
@@ -51,14 +65,14 @@ input {
 
 #logoCL {
 	display: block;
-	height: 40px;
+	height: 45px;
 	width: 245px;
 	background: black url("../images/logo-cloudunit.png") no-repeat;
-	background-size: 245px 40px;
+	background-size: 245px 45px;
 }
 
 #social-links {
-	width: 50px;
+	width: 45px;
 	margin-top: 10px;
 	text-align: center;
 	font-size: 25px;
@@ -95,7 +109,6 @@ header {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin-left: 5px;
-	background-color: grey;
 	height: 800px;
 }
 
@@ -319,17 +332,13 @@ ol > li::before {
 
 .formsubmit {
 	background-color: transparent;
-	/*text-decoration: none;
-	border: none;*/
 }
 
 .formsubmit2{
 	background-color: transparent;
-	/*text-decoration: none;
-	border: none;*/
 }
 
-/***************************** Social Section ********************************/
+/***************************** Footer Section ********************************/
 
 #mainFooter {
 	position: relative;
@@ -346,37 +355,11 @@ ol > li::before {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	text-align: center;
-	/* size: 50px; */
 	background: white;
 }
 
 .row img {
 	height: 150px;
-}
-
-.social_foot_bar {
-	text-align: center;
-	display: inline-flex;
-}
-
-.social_foot_bar ul {
-	padding: 0;
-	margin: 0;
-}
-
-.social_foot_bar li {
-	list-style: none;
-	margin: 0 30px;
-}
-
-.social_foot_bar li a {
-	color: black;
-	padding:  8px;
-	list-style-type: none;
-}
-
-.social_foot_bar li a:hover {
-	color: deeppink;
 }
 
 .partner {
@@ -396,12 +379,15 @@ ol > li::before {
 	padding: 0;
 }
 
-/****************************** Footer Section ********************************/
-
-
 .foot_bottom {
 	text-align: center;
 }
+
+.power {
+	color: black;
+}
+
+/******************************* Test Helper **********************************/
 
 .debug {
 	border: 1px solid yellow;
